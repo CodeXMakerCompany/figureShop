@@ -1,0 +1,128 @@
+/*=============================================
+INFOPRODUCTO
+=============================================*/
+
+.infoproducto figure.visor img{
+	display:none;
+	cursor:crosshair;
+
+}
+
+.infoproducto figure.visor img:first-child{
+	display:block;
+}
+
+.flexslider{
+	cursor: pointer;
+}
+
+.lupa{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+}
+
+.lupa img{
+	position:relative;
+	margin-top:-100%;
+	margin-left:-50%;
+	width:160%;
+}
+
+.compartirRedes{
+	border:0px;
+	box-shadow:none;
+	margin:0px;
+}
+
+.compartirRedes li p{
+	color:white;
+	text-align: center;
+	line-height: 30px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+	cursor:pointer;
+
+}
+
+.btnFacebook{
+	background:#46639f;
+}
+
+.btnGoogle{
+	background:#d6513e;
+}
+
+.alturaComentarios{
+	height:300px;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.videoPresentacion{
+
+		height:415px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+	
+	.videoPresentacion{
+
+		height:350px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+	
+	.videoPresentacion{
+
+		height:300px;
+	}
+
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.videoPresentacion{
+
+		height:200px;
+	}
+
+	.fondoBreadcrumb{
+		font-size:12px;
+	}
+
+	.botonesCompra button{
+		margin:5px 0;
+	}
+
+}
+
+	
